@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+}
+h2{
+    color: brown;
+}
+p{
+    font-weight: bold;
+    color: darkblue;
+}
+h3{
+    color: chartreuse;
+}
+image{
+    width: 200px;
+    height: 100px;  
+}

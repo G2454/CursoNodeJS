@@ -1,0 +1,17 @@
+<h1>Olá HandleBars</h1>
+
+<p>Algum texto do site</p>
+
+<p>O nome do usuário é {{user.name}} {{user.surname}}</p>
+
+{{#if approved}}
+    <p>Parabéns, seu cadastro foi aprovado</p>
+    {{else}}
+    <p>Tivemos um problema com o seu cadastro, tente novamente mais tarde</p>
+{{/if}}
+
+{{#if auth}}
+    <p>
+        Você está logado, clique <a href="dashboard">aqui</a> para ir para a dashboard	
+    </p>
+{{/if}}
